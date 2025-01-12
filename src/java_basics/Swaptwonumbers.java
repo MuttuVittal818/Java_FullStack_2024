@@ -1,4 +1,5 @@
-public class Swap_two_numbers {
+package java_basics;
+public class Swaptwonumbers {
     public static void main(String[] args) {
 
         float first = 1.20f, second = 2.45f;
