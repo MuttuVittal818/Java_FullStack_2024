@@ -2,7 +2,7 @@ package java_basics;
 public class Swaptwonumbers {
     public static void main(String[] args) {
 
-        float first = 1.20f, second = 2.45f;
+        float first = 20, second = 30;
 
         System.out.println("--Before swap--");
         System.out.println("First number = " + first);
