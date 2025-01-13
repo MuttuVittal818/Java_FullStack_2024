@@ -2,14 +2,14 @@ package java_basics;
 public class Swaptwonumbers {
     public static void main(String[] args) {
 
-        float first = 20, second = 30;
-
+        int first = 20;
+        int second = 30;
         System.out.println("--Before swap--");
         System.out.println("First number = " + first);
         System.out.println("Second number = " + second);
 
         // Value of first is assigned to temporary
-        float temporary = first;
+        int temporary = first;
 
         // Value of second is assigned to first
         first = second;
