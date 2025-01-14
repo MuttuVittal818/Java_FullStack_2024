@@ -8,7 +8,7 @@ public class checknumberevenorodd {
 
         System.out.print("Enter a number: ");
         int num = reader.nextInt();
-
+// Check whether a number is even or odd using if...else statement
         if(num % 2 == 0)
             System.out.println(num + " is even");
         else
