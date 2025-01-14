@@ -3,9 +3,11 @@ import java.util.Scanner;
 
 class Readinput {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number:");
-        int number = scanner.nextInt();
-        System.out.println("You entered: " + number);
+        Scanner scanner = new Scanner(System.in); // Create Scanner object
+
+        System.out.println("Enter a string:");
+        String input = scanner.nextLine(); // Read the input string
+
+        System.out.println("You entered: " + input);
     }
 }
