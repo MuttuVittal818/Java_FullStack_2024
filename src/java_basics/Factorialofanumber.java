@@ -3,7 +3,7 @@ package java_basics;
 public class Factorialofanumber {
     public static void main(String[] args) {
 
-        int num = 9;
+        int num = 8;
         long factorial = 1;
         for(int i = 1; i <= num; ++i)
         {
