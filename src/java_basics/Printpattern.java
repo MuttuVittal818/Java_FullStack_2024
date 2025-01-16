@@ -3,7 +3,7 @@ package java_basics;
 public class Printpattern {
     public static void main(String[] args) {
 
-        int rows = 5;
+        int rows = 10;
 
         for (int i = 0; i <= rows; ++i) {
 
