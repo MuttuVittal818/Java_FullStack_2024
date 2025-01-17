@@ -9,7 +9,7 @@ public class Sortstrings {
             int n = 4;
             // create string array called names
             String names[]
-                    = {"Rahul", "Ajay", "Gourav", "Riya"};
+                    = {"Rahul", "Ajay", "Gourav", "Muttu"};
             // inbuilt sort function
             Arrays.sort(names);
             // print output array
