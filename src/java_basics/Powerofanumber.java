@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Powerofanumber {
     public static void main(String[] args) {
 
-        int base = 9, exponent = 7;
+        int base = 3, exponent = 7;
 
         long result = 1;
 
