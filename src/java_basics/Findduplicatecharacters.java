@@ -17,7 +17,7 @@ public class Findduplicatecharacters {
     }
 
     public static void main(String[] args) {
-        String input = "programming";
+        String input = "mutturaj";
         findDuplicatesUsingTwoLoops(input);
     }
 }
