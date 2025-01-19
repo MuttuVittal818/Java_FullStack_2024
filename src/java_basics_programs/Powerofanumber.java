@@ -1,6 +1,4 @@
-package java_basics;
-
-import java.util.Scanner;
+package java_basics_programs;
 
 public class Powerofanumber {
     public static void main(String[] args) {

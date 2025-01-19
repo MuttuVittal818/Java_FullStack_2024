@@ -1,4 +1,4 @@
-package java_basics;
+package java_basics_programs;
 
 public class Findduplicatecharacters {
     public static void findDuplicatesUsingTwoLoops(String input) {
