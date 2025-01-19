@@ -6,7 +6,7 @@ public class Sortarray {
     public static void main(String[] args) {
 
         //Initialize array
-        int [] arr = new int [] {10, 40, 30, 20};
+        int [] arr = new int [] {7, 9, 2, 5};
         int temp = 0;
 
         //Sort the array in ascending order
