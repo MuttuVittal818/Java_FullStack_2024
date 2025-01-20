@@ -4,7 +4,7 @@ public class Checkleapyear {
     public static void main(String[] args) {
 
         // year to be checked
-        int year = 2012;
+        int year = 2025;
         boolean leap = false;
 
         // if the year is divided by 4
