@@ -1,14 +1,19 @@
 package java_basics_programs;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Checktwostringsanagrams {
     public static void main(String[] args) {
-        String str1 = "Race";
-        String str2 = "Care";
 
-        str1 = str1.toLowerCase();
-        str2 = str2.toLowerCase();
+        // create an object of Scanner class
+        Scanner input = new Scanner(System.in);
+
+        // take input from users
+        System.out.print("Enter first String: ");
+        String str1 = input.nextLine();
+        System.out.print("Enter second String: ");
+        String str2 = input.nextLine();
 
         // check if length is same
         if(str1.length() == str2.length()) {
@@ -35,5 +40,8 @@ public class Checktwostringsanagrams {
         else {
             System.out.println(str1 + " and " + str2 + " are not anagram.");
         }
+
+        input.close();
     }
 }
+
