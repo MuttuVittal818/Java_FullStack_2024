@@ -7,7 +7,7 @@ public class GCDoftwonumbers {
         int n1 = 91, n2 = 153;
 
         // initially set to gcd
-        int gcd = 1;
+/*       int gcd = 1;
 
         for (int i = 1; i <= n1 && i <= n2; ++i) {
 
@@ -16,6 +16,19 @@ public class GCDoftwonumbers {
                 gcd = i;
         }
 
-        System.out.println("GCD of " + n1 +" and " + n2 + " is " + gcd);
+        System.out.println("GCD of " + n1 +" and " + n2 + " is " + gcd);  */
+
+        while(n1 != n2) {
+
+            if(n1 > n2) {
+                n1 -= n2;
+            }
+
+            else {
+                n2 -= n1;
+            }
+        }
+
+        System.out.println("GCD: " + n1);
     }
 }
