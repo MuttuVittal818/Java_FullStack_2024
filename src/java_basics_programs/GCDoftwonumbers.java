@@ -4,7 +4,7 @@ public class GCDoftwonumbers {
     public static void main(String[] args) {
 
         // find GCD between n1 and n2
-        int n1 = 91, n2 = 156;
+        int n1 = 92, n2 = 156;
 
         // initially set to gcd
         int gcd = 1;
