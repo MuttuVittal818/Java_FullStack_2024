@@ -7,10 +7,10 @@ public class Jointwolists {
     public static void main(String[] args) {
 
         List<String> list1 = new ArrayList<String>();
-        list1.add("Hello");
+        list1.add("1,2,3,4,5");
 
         List<String> list2 = new ArrayList<String>();
-        list2.add("World");
+        list2.add("A, B, C, D, E");
 
         List<String> joined = new ArrayList<String>();
 
