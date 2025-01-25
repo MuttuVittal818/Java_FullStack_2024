@@ -1,6 +1,10 @@
 package java_basics_programs;
 
 class Test {
+    @Override
+    public String toString() {
+        return "object";
+    }
 
 }
 
