@@ -8,8 +8,8 @@ public class Createafile {
             // create a file object for the current location
             File file = new File("C:\\Users\\muttu\\OneDrive\\Desktop\\New folder\\JavaFile.java");
 
-            try {
 
+            try {
                 // create a new file with name specified
                 // by the file object
                 boolean value = file.createNewFile();
@@ -20,6 +20,7 @@ public class Createafile {
                     System.out.println("The file already exists.");
                 }
             }
+
             catch(Exception e) {
                 e.getStackTrace();
             }
