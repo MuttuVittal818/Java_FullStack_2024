@@ -9,7 +9,7 @@ class MaDeleteafilein {
 
         try {
             // creates a file object
-            Path path = Paths.get("JavaFile.java");
+            Path path = Paths.get("C:\\Users\\muttu\\OneDrive\\Desktop\\New folder\\abc.txt");
 
             // deletes the file
             boolean value = Files.deleteIfExists(path);
