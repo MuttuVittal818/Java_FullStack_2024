@@ -5,7 +5,8 @@ public class Displayuppercasedalphabet {
 
         char c;
 
-        for(c = 'A'; c <= 'Z'; ++c)
+       // for(c = 'A'; c <= 'Z'; ++c)  uppercased
+          for(c = 'a'; c <= 'z'; ++c)    // lowercase
             System.out.print(c + " ");
     }
 }
