@@ -1,6 +1,7 @@
 package java_basics_programs;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Convertmaptolist {
     public static void main(String[] args) {
