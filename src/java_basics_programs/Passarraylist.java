@@ -10,14 +10,13 @@ public class Passarraylist {
             System.out.print(language + ", ");
         }
     }
-
     public static void main(String[] args) {
 
         // create an arraylist
         ArrayList<String> languages = new ArrayList<>();
         languages.add("Java");
         languages.add("Python");
-        languages.add("JavaScript");
+        languages.add("MySQL");
 
         // passing arraylist as function parameter
         display(languages);
