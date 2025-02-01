@@ -13,8 +13,8 @@ public class Convertmaptolist {
         map.put(4, "d");
         map.put(5, "e");
 
-        List<Integer> keyList = new ArrayList(map.keySet());
-        List<String> valueList = new ArrayList(map.values());
+        List<Integer> keyList = map.keySet().stream().collect(Collectors.toList());
+        List<String> valueList = map.values().stream().collect(Collectors.toList());
 
         System.out.println("Key List: " + keyList);
         System.out.println("Value List: " + valueList);
