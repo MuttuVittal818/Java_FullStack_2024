@@ -2,8 +2,6 @@ package Variables_and_DataTypes;
 
 // Output Statements Print and Println
 
-import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
 
