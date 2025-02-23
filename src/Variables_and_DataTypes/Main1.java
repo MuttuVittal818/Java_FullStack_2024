@@ -14,35 +14,6 @@ class Main1 {
         System.out.println(name);
 
 
-        char grade = 'A';
-        System.out.println(grade);
-
-        boolean isTrue = true;
-        System.out.println(isTrue);
-
-        double pi = 3.14159;
-        System.out.println(pi);
-
-        float decimalNumber = 3.14f;
-        System.out.println(decimalNumber);
-
-        long bigNumber = 1000000000000L;
-        System.out.println(bigNumber);
-
-        short smallNumber = 32767;
-        System.out.println(smallNumber);
-
-        byte byteNumber = 127;
-        System.out.println(byteNumber);
-
-        char specialCharacter = '\u00A9';
-        System.out.println(specialCharacter);
-
-        // Invalid data types
-        // int x = 10.5; // float can't be assigned to an int
-        // double y = 10; // int can't be assigned to a double
-        // float z = 10 + 20L; // long can't be added to a float
-
         // Invalid variable names
         // int 123abc = 10; // cannot start with a number
         // int @hello = 10; // cannot contain special characters
