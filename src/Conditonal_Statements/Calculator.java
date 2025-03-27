@@ -7,7 +7,7 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a value: ");
         int a = sc.nextInt();
-        System.out.println("Enter b value: ");  // Asking for second input from user.
+        System.out.println("Enter b value: ");
         int b = sc.nextInt();
         System.out.println("Choose an operator (+, -, *, /, %) : ");  // Asking for operator from user.
         char operator = sc.next().charAt(0);
