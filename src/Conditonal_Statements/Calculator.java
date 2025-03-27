@@ -9,7 +9,7 @@ public class Calculator {
         int a = sc.nextInt();
         System.out.println("Enter b value: ");
         int b = sc.nextInt();
-        System.out.println("Choose an operator (+, -, *, /, %) : ");  // Asking for operator from user.
+        System.out.println("Choose an operator (+, -, *, /, %) : ");
         char operator = sc.next().charAt(0);
 
         switch(operator) {
